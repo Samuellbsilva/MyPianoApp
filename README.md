@@ -1,4 +1,4 @@
-# my-piano
+# mypiano
 
 ## Project setup
 ```
