@@ -2,15 +2,17 @@
   <div id="app">
     <NavHome />
     <router-view />
+    <CoolFooter />   
   </div>
 </template>
 
 <script>
-import NavHome from './components/NavHome.vue'
-
+import NavHome from './components/NavHome.vue'; 
+import CoolFooter from './components/CoolFooter.vue';
 export default {
   components: {
-    NavHome
+    NavHome,
+    CoolFooter
   }
 };
 </script>
