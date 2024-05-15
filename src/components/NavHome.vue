@@ -11,7 +11,7 @@
  | <ul v-if="isNotHomePage" class="navbar-nav flex-row">
     <li class="nav-item m-2">
          
-        <button type="button" class="btn btn-outline-primary"><router-link to="/Login">Login</router-link></button>
+        <button type="button" class="btn btn-outline-primary"><router-link to="/Login">Login teste</router-link></button>
         </li>
         <li class="nav-item m-2">
 
