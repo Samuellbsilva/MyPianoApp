@@ -1,18 +1,17 @@
 <template>
 
 
-<nav class="navbar border-bottom border-body" data-bs-theme="dark">
+<nav class="d-flex navbar border-bottom border-body " data-bs-theme="dark">
    
     
-    <div class="container-fluid justify-content-center">
-      <router-link v-if="isHomePage" to="/">
-        <span class="navbar-brand">MyPiano</span>
-      </router-link>
-      <router-link v-if="isHomePage !== true" to="/">
-        <img src="../assets/icons8-electronic-music-64.png" alt="">
-      </router-link>
-    
-        <ul v-if="isHomePage === true" class="navbar-nav flex-row">
+    <div class="d-flex  justify-content-start align-items-center w-50">
+   
+   <div class=" flex column lg">
+    <router-link to="/"><img src="../assets/icons8-electronic-music-64.png" class=" rounded  " alt=""></router-link>
+    <p class="text-light "><strong>MyPiano</strong></p>
+   </div>
+  </div>
+        <ul v-if="isHomePage === true" class="d-flex w-50 justify-content-end navbar-nav flex-row">
           <li class="nav-item m-2">
             <router-link to="/Login" class="btn btn-outline-primary">Login</router-link>
           </li>
@@ -55,5 +54,8 @@ nav {
 /* Remove underline from Bootstrap links globally */
 * {
   text-decoration: none !important;
+}
+.lg{
+  margin-left:3%;
 }
 </style>
