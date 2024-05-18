@@ -1,10 +1,10 @@
 <template>
 
 
-<nav class="d-flex navbar border-bottom border-body " data-bs-theme="dark">
+<nav class="d-flex navbar pb-0 " data-bs-theme="dark">
    
     
-    <div class="d-flex  justify-content-start align-items-center w-50">
+    <div class="d-flex  align-items-center w-50">
    
    <div class=" flex column lg">
     <router-link to="/"><img src="../assets/icons8-electronic-music-64.png" class=" rounded  " alt=""></router-link>
@@ -19,7 +19,7 @@
             <router-link to="/Register" class="btn btn-outline-primary">Registro</router-link>
           </li>
         </ul>
-    </div>
+    
    
     
   
@@ -56,6 +56,9 @@ nav {
   text-decoration: none !important;
 }
 .lg{
-  margin-left:3%;
+  margin-left:20%;
+  margin-bottom:0%;
+  align-items:center;
+  align-content: center;
 }
 </style>

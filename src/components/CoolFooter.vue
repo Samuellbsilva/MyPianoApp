@@ -4,7 +4,7 @@
 
 <footer class="d-flex bg-dark  flex-wrap p-0 mt-5 " >
     <div class="d-flex w-25 align-items-center justify-content-center">
-   
+   <p style="color:gray;">Samuellbsilva©</p>
 </div>
     <div class="d-flex flex-column w-50 align-items-center justify-content-center">
     <img src="../assets/icons8-electronic-music-64.png" class="rounded ml-5 " alt="">
